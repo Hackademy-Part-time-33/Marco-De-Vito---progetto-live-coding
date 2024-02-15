@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skisports</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top " aria-label="Fourth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-person-skiing"></i> Skisports</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">clicca il 3° <i class="fa-solid fa-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">qui c'è un modale</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form role="search" class="me-3">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- carosello -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./assets/logos/img.jpg" class="img-fluid   " alt="...">
+                <div class="carousel-caption text-primary bg-info-subtle   ">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/logos/img1.jpg" class="img-fluid  " alt="...">
+                <div class="carousel-caption text-primary bg-info-subtle rounded-4 ">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/logos/img2.jpg" class="img-fluid  " alt="...">
+                <div class="carousel-caption text-primary bg-info-subtle rounded-4 ">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- card -->
+    <div class="container-fluid my-5 pt-5">
+        <div class="row justify-content-center ">
+            <div class="col-12 col-sm-6 col-lg-3 my-3 my-sm-4 my-lg-5">
+                <div class="card mx-auto border-0 " style="width: 18rem;">
+                    <img src="./assets/illustrations/1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase ">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <div class="d-grid gap-2 col-6 mx-auto"><a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 my-3 my-sm-4 my-lg-5">
+                <div class="card mx-auto border-0 " style="width: 18rem;">
+                    <img src="./assets/illustrations/2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase ">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <div class="d-grid gap-2 col-6 mx-auto "><a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 my-3 my-sm-4 my-lg-5">
+                <div class="card mx-auto border-0 " style="width: 18rem;">
+                    <img src="./assets/illustrations/3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase ">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <div class="d-grid gap-2 col-6 mx-auto "><a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 my-3 my-sm-4 my-lg-5">
+                <div class="card mx-auto border-0 " style="width: 18rem;">
+                    <img src="./assets/illustrations/4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-uppercase ">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <div class="d-grid gap-2 col-6 mx-auto "><a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- elenco con sticky -->
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-12 col-md-4 ">
+                <div class="sticky-positioned ">
+                    <h3 class="text-center">Le nostre destinazioni</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sit ex doloremque dicta
+                        perspiciatis nihil harum, totam minus aperiam, eos aliquam ipsa, dolor consequuntur! Molestias
+                        non dolores dolorum sequi iste!</p>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-8 ">
+                <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-4">
+                        <div class="card h-100 mb-3">
+                            <img src="./assets/logos/img.jpg" class="img-fluid rounded-top"
+                                alt="immagine destinazione" />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100 mb-3">
+                            <img src="./assets/logos/img.jpg" class="img-fluid rounded-top"
+                                alt="immagine destinazione" />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100 mb-3">
+                            <img src="./assets/logos/img.jpg" class="img-fluid rounded-top"
+                                alt="immagine destinazione" />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-4">
+                        <div class="card h-100 mb-3">
+                            <img src="./assets/logos/img.jpg" class="img-fluid rounded-top"
+                                alt="immagine destinazione" />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100 mb-3">
+                            <img src="./assets/logos/img.jpg" class="img-fluid rounded-top"
+                                alt="immagine destinazione" />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100 mb-3">
+                            <img src="./assets/logos/img.jpg" class="img-fluid rounded-top"
+                                alt="immagine destinazione" />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-4">
+                        <div class="card h-100 mb-3">
+                            <img src="./assets/logos/img.jpg" class="img-fluid rounded-top"
+                                alt="immagine destinazione" />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100 mb-3">
+                            <img src="./assets/logos/img.jpg" class="img-fluid rounded-top"
+                                alt="immagine destinazione" />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100 mb-3">
+                            <img src="./assets/logos/img.jpg" class="img-fluid rounded-top"
+                                alt="immagine destinazione" />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-4">
+                        <div class="card h-100 mb-3">
+                            <img src="./assets/logos/img.jpg" class="img-fluid rounded-top"
+                                alt="immagine destinazione" />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100 mb-3">
+                            <img src="./assets/logos/img.jpg" class="img-fluid rounded-top"
+                                alt="immagine destinazione" />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100 mb-3">
+                            <img src="./assets/logos/img.jpg" class="img-fluid rounded-top"
+                                alt="immagine destinazione" />
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- contact form -->
+    <div class="container-fluid my-5">
+        <div class="row justify-content-center">
+            <div class="col-xl-10">
+                <div class="card border-0 rounded-0 overflow-hidden">
+                    <div class="card-body p-0">
+                        <div class="row g-0">
+                            <div class="col-sm-6 d-none d-sm-block"> <img class="img-fluid d.block my-5 pt-5"
+                                    src="./assets/logos/img2.jpg" alt=""></div>
+                            <div class="col-sm-6 p-4">
+                                <div class="text-center">
+                                    <div class="h3 fw-light font-custom tx-main">Contact Form</div>
+                                    <p class="mb-4 text-muted">Split layout contact form</p>
+                                </div>
+
+                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                                    <!-- Name Input -->
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control border-0 border-main rounded-0" id="name" type="text"
+                                            placeholder="Name" data-sb-validations="required">
+                                        <label for="name">Inserisci il tuo username</label>
+                                        <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.
+                                        </div>
+                                    </div>
+
+                                    <!-- Email Input -->
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control border-0 border-main rounded-0" id="emailAddress"
+                                            type="email" placeholder="Email Address"
+                                            data-sb-validations="required,email">
+                                        <label for="emailAddress">Inserisci la email</label>
+                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email
+                                            Address is required.</div>
+                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email
+                                            Address Email is not valid.</div>
+                                    </div>
+
+                                    <!-- Message Input -->
+                                    <div class="form-floating mb-3">
+                                        <textarea class="form-control border-0 border-main rounded-0" id="message"
+                                            type="text" placeholder="Message" style="height: 10rem;"
+                                            data-sb-validations="required"></textarea>
+                                        <label for="message">Scrivi un messaggio</label>
+                                        <div class="invalid-feedback" data-sb-feedback="message:required">Message is
+                                            required.</div>
+                                    </div>
+
+                                    <!-- Submit success message -->
+                                    <div class="d-none" id="submitSuccessMessage">
+                                        <div class="text-center mb-3">
+                                            <div class="fw-bolder">Form submission successful!</div>
+                                            <p>To activate this form, sign up at</p>
+                                            <a
+                                                href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Submit error message -->
+                                    <div class="d-none" id="submitErrorMessage">
+                                        <div class="text-center text-danger mb-3">Error sending message!</div>
+                                    </div>
+
+                                    <!-- Submit button -->
+                                    <div class="d-grid">
+                                        <button class="bg-main border-0 py-3 rounded-2 text-white btn-lg disabled"
+                                            id="submitButton" type="submit">Invia il form</button>
+                                    </div>
+                                </form>
+                                <!-- End of contact form -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer  -->
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 me-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-youtube"></i></a></li>
+        </ul>
+    </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/8315882641.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
